@@ -1,0 +1,560 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D05906691ECC0A95000D9264 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D05906681ECC0A95000D9264 /* DetailViewController.swift */; };
+		EF84F90D1EC6FCAD005E6E0B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF84F90C1EC6FCAD005E6E0B /* AppDelegate.swift */; };
+		EF84F90F1EC6FCAD005E6E0B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF84F90E1EC6FCAD005E6E0B /* ViewController.swift */; };
+		EF84F9151EC6FCAD005E6E0B /* Hiep_MovieDB_NowPlaying.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = EF84F9131EC6FCAD005E6E0B /* Hiep_MovieDB_NowPlaying.xcdatamodeld */; };
+		EF84F9171EC6FCAD005E6E0B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EF84F9161EC6FCAD005E6E0B /* Assets.xcassets */; };
+		EF84F91A1EC6FCAD005E6E0B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EF84F9181EC6FCAD005E6E0B /* LaunchScreen.storyboard */; };
+		EF84F9251EC6FCAD005E6E0B /* Hiep_MovieDB_NowPlayingTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF84F9241EC6FCAD005E6E0B /* Hiep_MovieDB_NowPlayingTests.swift */; };
+		EF84F9301EC6FCAE005E6E0B /* Hiep_MovieDB_NowPlayingUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF84F92F1EC6FCAE005E6E0B /* Hiep_MovieDB_NowPlayingUITests.swift */; };
+		EF84F9431EC6FD24005E6E0B /* Movie.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF84F9421EC6FD24005E6E0B /* Movie.swift */; };
+		EF84F9451EC6FD6E005E6E0B /* MovieDBNowplayViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF84F9441EC6FD6E005E6E0B /* MovieDBNowplayViewController.swift */; };
+		EF84F9471EC7002B005E6E0B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EF84F9461EC7002B005E6E0B /* Main.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EF84F9211EC6FCAD005E6E0B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EF84F9011EC6FCAD005E6E0B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EF84F9081EC6FCAD005E6E0B;
+			remoteInfo = Hiep_MovieDB_NowPlaying;
+		};
+		EF84F92C1EC6FCAD005E6E0B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EF84F9011EC6FCAD005E6E0B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EF84F9081EC6FCAD005E6E0B;
+			remoteInfo = Hiep_MovieDB_NowPlaying;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D05906681ECC0A95000D9264 /* DetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		EF84F9091EC6FCAD005E6E0B /* Hiep_MovieDB_NowPlaying.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Hiep_MovieDB_NowPlaying.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EF84F90C1EC6FCAD005E6E0B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		EF84F90E1EC6FCAD005E6E0B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		EF84F9141EC6FCAD005E6E0B /* Hiep_MovieDB_NowPlaying.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Hiep_MovieDB_NowPlaying.xcdatamodel; sourceTree = "<group>"; };
+		EF84F9161EC6FCAD005E6E0B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EF84F9191EC6FCAD005E6E0B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		EF84F91B1EC6FCAD005E6E0B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EF84F9201EC6FCAD005E6E0B /* Hiep_MovieDB_NowPlayingTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Hiep_MovieDB_NowPlayingTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EF84F9241EC6FCAD005E6E0B /* Hiep_MovieDB_NowPlayingTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Hiep_MovieDB_NowPlayingTests.swift; sourceTree = "<group>"; };
+		EF84F9261EC6FCAD005E6E0B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EF84F92B1EC6FCAD005E6E0B /* Hiep_MovieDB_NowPlayingUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Hiep_MovieDB_NowPlayingUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EF84F92F1EC6FCAE005E6E0B /* Hiep_MovieDB_NowPlayingUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Hiep_MovieDB_NowPlayingUITests.swift; sourceTree = "<group>"; };
+		EF84F9311EC6FCAE005E6E0B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EF84F9421EC6FD24005E6E0B /* Movie.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Movie.swift; sourceTree = "<group>"; };
+		EF84F9441EC6FD6E005E6E0B /* MovieDBNowplayViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MovieDBNowplayViewController.swift; sourceTree = "<group>"; };
+		EF84F9461EC7002B005E6E0B /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EF84F9061EC6FCAD005E6E0B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF84F91D1EC6FCAD005E6E0B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF84F9281EC6FCAD005E6E0B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EF84F9001EC6FCAD005E6E0B = {
+			isa = PBXGroup;
+			children = (
+				EF84F90B1EC6FCAD005E6E0B /* Hiep_MovieDB_NowPlaying */,
+				EF84F9231EC6FCAD005E6E0B /* Hiep_MovieDB_NowPlayingTests */,
+				EF84F92E1EC6FCAD005E6E0B /* Hiep_MovieDB_NowPlayingUITests */,
+				EF84F90A1EC6FCAD005E6E0B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EF84F90A1EC6FCAD005E6E0B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EF84F9091EC6FCAD005E6E0B /* Hiep_MovieDB_NowPlaying.app */,
+				EF84F9201EC6FCAD005E6E0B /* Hiep_MovieDB_NowPlayingTests.xctest */,
+				EF84F92B1EC6FCAD005E6E0B /* Hiep_MovieDB_NowPlayingUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EF84F90B1EC6FCAD005E6E0B /* Hiep_MovieDB_NowPlaying */ = {
+			isa = PBXGroup;
+			children = (
+				EF84F9441EC6FD6E005E6E0B /* MovieDBNowplayViewController.swift */,
+				EF84F93D1EC6FCC1005E6E0B /* MODEL */,
+				EF84F90C1EC6FCAD005E6E0B /* AppDelegate.swift */,
+				EF84F90E1EC6FCAD005E6E0B /* ViewController.swift */,
+				EF84F9461EC7002B005E6E0B /* Main.storyboard */,
+				EF84F9161EC6FCAD005E6E0B /* Assets.xcassets */,
+				EF84F9181EC6FCAD005E6E0B /* LaunchScreen.storyboard */,
+				EF84F91B1EC6FCAD005E6E0B /* Info.plist */,
+				EF84F9131EC6FCAD005E6E0B /* Hiep_MovieDB_NowPlaying.xcdatamodeld */,
+				D05906681ECC0A95000D9264 /* DetailViewController.swift */,
+			);
+			path = Hiep_MovieDB_NowPlaying;
+			sourceTree = "<group>";
+		};
+		EF84F9231EC6FCAD005E6E0B /* Hiep_MovieDB_NowPlayingTests */ = {
+			isa = PBXGroup;
+			children = (
+				EF84F9241EC6FCAD005E6E0B /* Hiep_MovieDB_NowPlayingTests.swift */,
+				EF84F9261EC6FCAD005E6E0B /* Info.plist */,
+			);
+			path = Hiep_MovieDB_NowPlayingTests;
+			sourceTree = "<group>";
+		};
+		EF84F92E1EC6FCAD005E6E0B /* Hiep_MovieDB_NowPlayingUITests */ = {
+			isa = PBXGroup;
+			children = (
+				EF84F92F1EC6FCAE005E6E0B /* Hiep_MovieDB_NowPlayingUITests.swift */,
+				EF84F9311EC6FCAE005E6E0B /* Info.plist */,
+			);
+			path = Hiep_MovieDB_NowPlayingUITests;
+			sourceTree = "<group>";
+		};
+		EF84F93D1EC6FCC1005E6E0B /* MODEL */ = {
+			isa = PBXGroup;
+			children = (
+				EF84F9421EC6FD24005E6E0B /* Movie.swift */,
+			);
+			name = MODEL;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EF84F9081EC6FCAD005E6E0B /* Hiep_MovieDB_NowPlaying */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EF84F9341EC6FCAE005E6E0B /* Build configuration list for PBXNativeTarget "Hiep_MovieDB_NowPlaying" */;
+			buildPhases = (
+				EF84F9051EC6FCAD005E6E0B /* Sources */,
+				EF84F9061EC6FCAD005E6E0B /* Frameworks */,
+				EF84F9071EC6FCAD005E6E0B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Hiep_MovieDB_NowPlaying;
+			productName = Hiep_MovieDB_NowPlaying;
+			productReference = EF84F9091EC6FCAD005E6E0B /* Hiep_MovieDB_NowPlaying.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EF84F91F1EC6FCAD005E6E0B /* Hiep_MovieDB_NowPlayingTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EF84F9371EC6FCAE005E6E0B /* Build configuration list for PBXNativeTarget "Hiep_MovieDB_NowPlayingTests" */;
+			buildPhases = (
+				EF84F91C1EC6FCAD005E6E0B /* Sources */,
+				EF84F91D1EC6FCAD005E6E0B /* Frameworks */,
+				EF84F91E1EC6FCAD005E6E0B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EF84F9221EC6FCAD005E6E0B /* PBXTargetDependency */,
+			);
+			name = Hiep_MovieDB_NowPlayingTests;
+			productName = Hiep_MovieDB_NowPlayingTests;
+			productReference = EF84F9201EC6FCAD005E6E0B /* Hiep_MovieDB_NowPlayingTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		EF84F92A1EC6FCAD005E6E0B /* Hiep_MovieDB_NowPlayingUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EF84F93A1EC6FCAE005E6E0B /* Build configuration list for PBXNativeTarget "Hiep_MovieDB_NowPlayingUITests" */;
+			buildPhases = (
+				EF84F9271EC6FCAD005E6E0B /* Sources */,
+				EF84F9281EC6FCAD005E6E0B /* Frameworks */,
+				EF84F9291EC6FCAD005E6E0B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EF84F92D1EC6FCAD005E6E0B /* PBXTargetDependency */,
+			);
+			name = Hiep_MovieDB_NowPlayingUITests;
+			productName = Hiep_MovieDB_NowPlayingUITests;
+			productReference = EF84F92B1EC6FCAD005E6E0B /* Hiep_MovieDB_NowPlayingUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EF84F9011EC6FCAD005E6E0B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = cntt17;
+				TargetAttributes = {
+					EF84F9081EC6FCAD005E6E0B = {
+						CreatedOnToolsVersion = 8.3;
+						ProvisioningStyle = Automatic;
+					};
+					EF84F91F1EC6FCAD005E6E0B = {
+						CreatedOnToolsVersion = 8.3;
+						ProvisioningStyle = Automatic;
+						TestTargetID = EF84F9081EC6FCAD005E6E0B;
+					};
+					EF84F92A1EC6FCAD005E6E0B = {
+						CreatedOnToolsVersion = 8.3;
+						ProvisioningStyle = Automatic;
+						TestTargetID = EF84F9081EC6FCAD005E6E0B;
+					};
+				};
+			};
+			buildConfigurationList = EF84F9041EC6FCAD005E6E0B /* Build configuration list for PBXProject "Hiep_MovieDB_NowPlaying" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EF84F9001EC6FCAD005E6E0B;
+			productRefGroup = EF84F90A1EC6FCAD005E6E0B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EF84F9081EC6FCAD005E6E0B /* Hiep_MovieDB_NowPlaying */,
+				EF84F91F1EC6FCAD005E6E0B /* Hiep_MovieDB_NowPlayingTests */,
+				EF84F92A1EC6FCAD005E6E0B /* Hiep_MovieDB_NowPlayingUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EF84F9071EC6FCAD005E6E0B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF84F9471EC7002B005E6E0B /* Main.storyboard in Resources */,
+				EF84F91A1EC6FCAD005E6E0B /* LaunchScreen.storyboard in Resources */,
+				EF84F9171EC6FCAD005E6E0B /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF84F91E1EC6FCAD005E6E0B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF84F9291EC6FCAD005E6E0B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EF84F9051EC6FCAD005E6E0B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF84F90F1EC6FCAD005E6E0B /* ViewController.swift in Sources */,
+				EF84F90D1EC6FCAD005E6E0B /* AppDelegate.swift in Sources */,
+				EF84F9151EC6FCAD005E6E0B /* Hiep_MovieDB_NowPlaying.xcdatamodeld in Sources */,
+				D05906691ECC0A95000D9264 /* DetailViewController.swift in Sources */,
+				EF84F9451EC6FD6E005E6E0B /* MovieDBNowplayViewController.swift in Sources */,
+				EF84F9431EC6FD24005E6E0B /* Movie.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF84F91C1EC6FCAD005E6E0B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF84F9251EC6FCAD005E6E0B /* Hiep_MovieDB_NowPlayingTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF84F9271EC6FCAD005E6E0B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF84F9301EC6FCAE005E6E0B /* Hiep_MovieDB_NowPlayingUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EF84F9221EC6FCAD005E6E0B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EF84F9081EC6FCAD005E6E0B /* Hiep_MovieDB_NowPlaying */;
+			targetProxy = EF84F9211EC6FCAD005E6E0B /* PBXContainerItemProxy */;
+		};
+		EF84F92D1EC6FCAD005E6E0B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EF84F9081EC6FCAD005E6E0B /* Hiep_MovieDB_NowPlaying */;
+			targetProxy = EF84F92C1EC6FCAD005E6E0B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		EF84F9181EC6FCAD005E6E0B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EF84F9191EC6FCAD005E6E0B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EF84F9321EC6FCAE005E6E0B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		EF84F9331EC6FCAE005E6E0B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EF84F9351EC6FCAE005E6E0B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Hiep_MovieDB_NowPlaying/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "hcmute.Hiep-MovieDB-NowPlaying";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		EF84F9361EC6FCAE005E6E0B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Hiep_MovieDB_NowPlaying/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "hcmute.Hiep-MovieDB-NowPlaying";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		EF84F9381EC6FCAE005E6E0B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = Hiep_MovieDB_NowPlayingTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "hcmute.Hiep-MovieDB-NowPlayingTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Hiep_MovieDB_NowPlaying.app/Hiep_MovieDB_NowPlaying";
+			};
+			name = Debug;
+		};
+		EF84F9391EC6FCAE005E6E0B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = Hiep_MovieDB_NowPlayingTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "hcmute.Hiep-MovieDB-NowPlayingTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Hiep_MovieDB_NowPlaying.app/Hiep_MovieDB_NowPlaying";
+			};
+			name = Release;
+		};
+		EF84F93B1EC6FCAE005E6E0B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = Hiep_MovieDB_NowPlayingUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "hcmute.Hiep-MovieDB-NowPlayingUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = Hiep_MovieDB_NowPlaying;
+			};
+			name = Debug;
+		};
+		EF84F93C1EC6FCAE005E6E0B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = Hiep_MovieDB_NowPlayingUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "hcmute.Hiep-MovieDB-NowPlayingUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = Hiep_MovieDB_NowPlaying;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EF84F9041EC6FCAD005E6E0B /* Build configuration list for PBXProject "Hiep_MovieDB_NowPlaying" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EF84F9321EC6FCAE005E6E0B /* Debug */,
+				EF84F9331EC6FCAE005E6E0B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EF84F9341EC6FCAE005E6E0B /* Build configuration list for PBXNativeTarget "Hiep_MovieDB_NowPlaying" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EF84F9351EC6FCAE005E6E0B /* Debug */,
+				EF84F9361EC6FCAE005E6E0B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EF84F9371EC6FCAE005E6E0B /* Build configuration list for PBXNativeTarget "Hiep_MovieDB_NowPlayingTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EF84F9381EC6FCAE005E6E0B /* Debug */,
+				EF84F9391EC6FCAE005E6E0B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EF84F93A1EC6FCAE005E6E0B /* Build configuration list for PBXNativeTarget "Hiep_MovieDB_NowPlayingUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EF84F93B1EC6FCAE005E6E0B /* Debug */,
+				EF84F93C1EC6FCAE005E6E0B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		EF84F9131EC6FCAD005E6E0B /* Hiep_MovieDB_NowPlaying.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				EF84F9141EC6FCAD005E6E0B /* Hiep_MovieDB_NowPlaying.xcdatamodel */,
+			);
+			currentVersion = EF84F9141EC6FCAD005E6E0B /* Hiep_MovieDB_NowPlaying.xcdatamodel */;
+			path = Hiep_MovieDB_NowPlaying.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = EF84F9011EC6FCAD005E6E0B /* Project object */;
+}
